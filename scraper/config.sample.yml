@@ -1,0 +1,12 @@
+# Sample scraper config for SES affiliates page
+url: https://www.ses.com/about-us/our-affiliates
+selectors:
+  # Not used in ses_affiliates mode but kept for compatibility
+  item: "a.btn"
+  name: "h2, h3"
+  link: "&"
+
+mode: ses_affiliates
+
+# polite delay between requests (seconds) if you chain multiple pages
+delay_seconds: 0.0
